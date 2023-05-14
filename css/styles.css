@@ -1,0 +1,250 @@
+:root {
+  --logo-color-first: #2196f3;
+  --logo-color-second: #000000;
+  --headline-color: #212121;
+  --text-color: #757575;
+  --dark-background-text-color: #ffffff;
+  --header-background: #ffffff;
+  --light-background: #e5e5e5;
+  --team-background: #f5f4fa;
+  --dark-background: #2f303a;
+  --contact-details: rgba(255, 255, 255, 0.6);
+  --branch-background-color: #eeeeee;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+.navigation {
+  background-color: var(--header);
+}
+
+.navigation .link {
+  text-decoration: none;
+}
+
+.navigation.main-page .link {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--logo-color-second);
+}
+
+.logo {
+  color: var(--logo-color-first);
+}
+
+.navigation.main-page .link:hover,
+.navigation.main-page .link:focus {
+  color: var(--logo-color-first);
+}
+
+.subpage-agency .link {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--logo-color-first);
+}
+
+.subpage-agency .link:hover,
+.subpage-agency .link:focus {
+  color: var(--headline-color);
+}
+
+.subpage .link {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--headline-color);
+}
+
+.subpage .link:hover,
+.subpage .link:focus {
+  color: var(--logo-color-first);
+}
+
+.contact {
+  background-color: var(--header-background);
+}
+
+.contact .link {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.contact-mail .link {
+  color: var(--logo-color-first);
+}
+
+.contact-mail .link:hover,
+.contact-mail .link:focus {
+  color: var(--headline-color);
+}
+
+.contact-phone .link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.contact-phone .link:hover,
+.contact-phone link:focus {
+  color: var(--logo-color-first);
+}
+
+.slogan {
+  background-color: var(--dark-background);
+}
+
+.main-headline {
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  color: var(--dark-background-text-color);
+}
+
+.order-service {
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 700;
+  color: var(--dark-background-text-color);
+  background-color: var(--logo-color-first);
+  cursor: pointer;
+}
+
+.order-service:hover,
+.order-service:focus {
+  color: var(--logo-color-second);
+}
+
+.lorem-ipsum,
+.coverage {
+  background-color: var(--light-background);
+}
+
+.headline-lorem {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: var(--headline-color);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.headline {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--headline-color);
+}
+
+.team {
+  background-color: var(--team-background);
+}
+
+.team-member {
+  background-color: var(--header-background);
+}
+
+.name {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--headline-color);
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.ending {
+  background-color: var(--dark-background);
+}
+
+.ending .link {
+  text-decoration: none;
+}
+
+.ending > .link {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--dark-background-text-color);
+}
+
+.ending .link:hover,
+.ending .link:focus {
+  color: var(--logo-color-first);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--dark-background-text-color);
+}
+
+.contact-details {
+  font-style: normal;
+}
+
+.contact-details .link {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--contact-details);
+}
+
+.portfolio-content {
+  background-color: var(--light-background);
+}
+
+.branch-item {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--headline-color);
+  background-color: var(--team-background);
+  cursor: pointer;
+}
+
+.branch-item:hover,
+.branch-item:focus {
+  color: var(--logo-color-first);
+}
+
+.branch-item.all-branch {
+  color: var(--dark-background-text-color);
+  background-color: var(--logo-color-first);
+}
+
+.branch-item.all-branch:hover,
+.branch-item.all-branch:focus {
+  color: var(--headline-color);
+}
+
+.product-description {
+  background-color: var(--branch-background-color);
+}
+
+.description {
+  background-color: var(--header-background);
+}
+
+.product-title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  color: var(--headline-color);
+}
+
+.product-type {
+  font-size: 16px;
+  line-height: 1.9;
+}

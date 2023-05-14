@@ -5,61 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="/">WebStudio</a></li>
-          <li><a href="./agencja">Agencja</a></li>
-          <li><a href="./portfolio">Portfolio</a></li>
-          <li><a href="./kontakt">Kontakt</a></li>
+        <ul class="navigation">
+          <li class="navigation main-page">
+            <a class="link" href="./index.html"
+              ><span class="logo">Web</span>Studio</a
+            >
+          </li>
+          <li class="navigation subpage-agency">
+            <a class="link" href="./agencja">Agencja</a>
+          </li>
+          <li class="navigation subpage">
+            <a class="link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="navigation subpage">
+            <a class="link" href="./kontakt">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="contact">
+        <li class="contact-mail">
+          <a class="link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-phone">
+          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
-      <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <div class="slogan">
+        <h1 class="main-headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="order-service" type="button">Zamów usługę</button>
       </div>
-      <section>
+      <section class="lorem-ipsum">
         <ul>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="headline-lorem">LOREM IPSUM</h3>
+            <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="headline-lorem">LOREM IPSUM</h3>
+            <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="headline-lorem">LOREM IPSUM</h3>
+            <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="headline-lorem">LOREM IPSUM</h3>
+            <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Czym się zajmujemy</h2>
+      <section class="coverage">
+        <h2 class="headline">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -87,58 +110,60 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
+      <section class="team">
+        <h2 class="headline">Nasz zespół</h2>
         <ul>
-          <li>
+          <li class="team-member">
             <img
               src="images/team-first.jpg"
               alt="Uśmiechnięty brunet w okularach"
               width="180"
               height="200"
             />
-            <p>John Doe</p>
-            <p>Product Designer</p>
+            <p class="name">John Doe</p>
+            <p class="position">Product Designer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="images/team-second.jpg"
               alt="Uśmiechnięty blondynka w okularach"
               width="180"
               height="200"
             />
-            <p>John Doe</p>
-            <p>Frontend Developer</p>
+            <p class="name">John Doe</p>
+            <p class="position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="images/team-third.jpg"
               alt="Uśmiechnięty brunet"
               width="180"
               height="200"
             />
-            <p>John Doe</p>
-            <p>Marketing</p>
+            <p class="name">John Doe</p>
+            <p class="position">Marketing</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
               src="images/team-fourth.jpg"
               alt="Brunet w okularach z brodą"
               width="180"
               height="200"
             />
-            <p>John Doe</p>
-            <p>UI Designer</p>
+            <p class="name">John Doe</p>
+            <p class="position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">WebStudio</a>
-      <address>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+    <footer class="ending">
+      <a class="link" href="./index.html"
+        ><span class="logo">Web</span>Studio</a
+      >
+      <address class="contact-details">
+        <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="link" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
