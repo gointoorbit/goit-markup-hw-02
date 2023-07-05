@@ -17,6 +17,14 @@ body {
   color: var(--text-color);
 }
 
+.container {
+  width: 1200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .navigation {
   background-color: var(--header);
 }
